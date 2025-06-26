@@ -1,0 +1,6 @@
+---
+inherit_gem:
+  rubocop-vaporyhumo: config.yml
+
+RSpec/SpecFilePathFormat:
+  Enabled: false
