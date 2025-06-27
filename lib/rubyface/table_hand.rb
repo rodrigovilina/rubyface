@@ -71,5 +71,26 @@ module Rubyface
 
       [T.must(right_card), with(right_card: nil)]
     end
+
+    sig { params(position: TableCardPosition).returns(T::Boolean) }
+    def present?(position) # rubocop:disable Metrics/MethodLength
+      case position
+      when TableCardPosition::Left then left_card_present?
+      when TableCardPosition::Center then center_card_present?
+      when TableCardPosition::Right then right_card_present?
+      # :nocov:
+      else T.absurd(position)
+      # :nocov: # rubocop:disable Layout/CommentIndentation
+      end
+    end
+
+    sig { returns(T::Array[TableCardPosition]) }
+    def present_cards
+      cards = []
+      cards << TableCardPosition::Left if left_card_present?
+      cards << TableCardPosition::Center if center_card_present?
+      cards << TableCardPosition::Right if right_card_present?
+      cards
+    end
   end
 end
