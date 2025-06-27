@@ -1,3 +1,4 @@
+# typed: true
 # frozen_string_literal: true
 
 module Rubyface
@@ -18,7 +19,7 @@ module Rubyface
       super
     end
 
-    sig { returns(FrontColor) }
+    sig { override.returns(FrontColor) }
     def front_color
       case suit
       when Suit::CLUBS, Suit::SPADES then FrontColor::BLACK

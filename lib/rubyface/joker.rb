@@ -1,3 +1,4 @@
+# typed: true
 # frozen_string_literal: true
 
 module Rubyface
@@ -9,12 +10,12 @@ module Rubyface
     const :back_color, BackColor
     const :front_color, FrontColor
 
-    sig { returns(Rank) }
+    sig { override.returns(Rank) }
     def rank
       Rank::JOKER
     end
 
-    sig { returns(Suit) }
+    sig { override.returns(Suit) }
     def suit
       Suit::JOKERS
     end
