@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'sorbet-runtime'
+require 'sorbet-struct-comparable'
 require 'zeitwerk'
 
 loader = Zeitwerk::Loader.new
