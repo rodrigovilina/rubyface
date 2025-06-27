@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 
 gem 'irb'
 gem 'rspec'
-gem 'rubocop-vaporyhumo'
+gem 'rubocop-vaporyhumo', github: 'vaporyhumo/rubocop-vaporyhumo' # Main branch
 gem 'simplecov'
 gem 'sorbet'
 gem 'sorbet-runtime'

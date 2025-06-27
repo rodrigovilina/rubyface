@@ -1,3 +1,14 @@
+GIT
+  remote: https://github.com/vaporyhumo/rubocop-vaporyhumo.git
+  revision: 080465592dfcac361a5642a5eb2c4728f178328f
+  specs:
+    rubocop-vaporyhumo (0.7.0)
+      rubocop (~> 1.77)
+      rubocop-performance (~> 1.25)
+      rubocop-rake (~> 0.7)
+      rubocop-rspec (~> 3.6)
+      rubocop-sorbet (~> 0.10)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -83,12 +94,6 @@ GEM
     rubocop-sorbet (0.10.5)
       lint_roller
       rubocop (>= 1.75.2)
-    rubocop-vaporyhumo (0.7.0)
-      rubocop (~> 1.77)
-      rubocop-performance (~> 1.25)
-      rubocop-rake (~> 0.7)
-      rubocop-rspec (~> 3.6)
-      rubocop-sorbet (~> 0.10)
     ruby-progressbar (1.13.0)
     simplecov (0.22.0)
       docile (~> 1.1)
@@ -140,7 +145,7 @@ PLATFORMS
 DEPENDENCIES
   irb
   rspec
-  rubocop-vaporyhumo
+  rubocop-vaporyhumo!
   simplecov
   sorbet
   sorbet-runtime
