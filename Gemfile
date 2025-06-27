@@ -2,5 +2,9 @@
 
 source 'https://rubygems.org'
 
+gem 'irb'
 gem 'rspec'
 gem 'rubocop-vaporyhumo'
+gem 'simplecov'
+gem 'sorbet-runtime'
+gem 'zeitwerk'
