@@ -2,6 +2,7 @@
 # frozen_string_literal: true
 
 module Rubyface
+  # The hand that's facing up.
   class PublicHand < T::ImmutableStruct
     extend T::Sig
     include T::Struct::ActsAsComparable
