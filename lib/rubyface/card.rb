@@ -6,6 +6,7 @@ module Rubyface
   module Card
     extend T::Sig
     extend T::Helpers
+    include Kernel
 
     abstract!
 
