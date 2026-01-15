@@ -53,7 +53,7 @@ GEM
     regexp_parser (2.10.0)
     reline (0.6.1)
       io-console (~> 0.5)
-    rexml (3.4.1)
+    rexml (3.4.2)
     rspec (3.13.1)
       rspec-core (~> 3.13.0)
       rspec-expectations (~> 3.13.0)
@@ -105,6 +105,7 @@ GEM
       sorbet-static (= 0.5.12203)
     sorbet-runtime (0.5.12203)
     sorbet-static (0.5.12203-universal-darwin)
+    sorbet-static (0.5.12203-x86_64-linux)
     sorbet-static-and-runtime (0.5.12203)
       sorbet (= 0.5.12203)
       sorbet-runtime (= 0.5.12203)
@@ -141,6 +142,7 @@ GEM
 PLATFORMS
   arm64-darwin-23
   arm64-darwin-24
+  x86_64-linux
 
 DEPENDENCIES
   irb
