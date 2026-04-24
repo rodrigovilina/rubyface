@@ -17,7 +17,7 @@ GEM
     date (3.4.1)
     diff-lcs (1.6.2)
     docile (1.4.1)
-    erb (5.0.1)
+    erb (6.0.1.1)
     erubi (1.13.1)
     io-console (0.8.0)
     irb (1.15.2)
@@ -105,6 +105,7 @@ GEM
       sorbet-static (= 0.5.12203)
     sorbet-runtime (0.5.12203)
     sorbet-static (0.5.12203-universal-darwin)
+    sorbet-static (0.5.12203-x86_64-linux)
     sorbet-static-and-runtime (0.5.12203)
       sorbet (= 0.5.12203)
       sorbet-runtime (= 0.5.12203)
@@ -141,6 +142,7 @@ GEM
 PLATFORMS
   arm64-darwin-23
   arm64-darwin-24
+  x86_64-linux
 
 DEPENDENCIES
   irb
