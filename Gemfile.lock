@@ -105,6 +105,7 @@ GEM
       sorbet-static (= 0.5.12203)
     sorbet-runtime (0.5.12203)
     sorbet-static (0.5.12203-universal-darwin)
+    sorbet-static (0.5.12203-x86_64-linux)
     sorbet-static-and-runtime (0.5.12203)
       sorbet (= 0.5.12203)
       sorbet-runtime (= 0.5.12203)
@@ -132,7 +133,7 @@ GEM
     unicode-display_width (3.1.4)
       unicode-emoji (~> 4.0, >= 4.0.4)
     unicode-emoji (4.0.4)
-    yard (0.9.37)
+    yard (0.9.44)
     yard-sorbet (0.9.0)
       sorbet-runtime
       yard
@@ -141,6 +142,7 @@ GEM
 PLATFORMS
   arm64-darwin-23
   arm64-darwin-24
+  x86_64-linux
 
 DEPENDENCIES
   irb
